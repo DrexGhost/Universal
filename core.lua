@@ -6,7 +6,7 @@ local LocalPlayer = Players.LocalPlayer
 local Core = {}
 
 Core.VERSION = "1.0.0"
-Core.CONFIG_FOLDER = "SwillConfigs"
+Core.CONFIG_FOLDER = "NexusXConfigs"
 Core.BUTTON_DEFAULT_SIZE = 58
 
 Core.T = {
@@ -62,12 +62,12 @@ Core.dataStore = nil
 
 function Core.loadSettings()
     local ok, folder = pcall(function()
-        if not LocalPlayer:FindFirstChild("SwillSettings") then
+        if not LocalPlayer:FindFirstChild("NexusXSettings") then
             local f = Instance.new("Folder")
-            f.Name = "SwillSettings"
+            f.Name = "NexusXSettings"
             f.Parent = LocalPlayer
         end
-        return LocalPlayer.SwillSettings
+        return LocalPlayer.NexusXSettings
     end)
     if not ok or not folder then return end
     Core.dataStore = folder
