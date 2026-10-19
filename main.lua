@@ -11,7 +11,7 @@ local T = Core.T
 local Watermark = {}
 
 local wmScreenGui = Instance.new("ScreenGui")
-wmScreenGui.Name = "SwillWatermark"
+wmScreenGui.Name = "NexusXWatermark"
 wmScreenGui.ResetOnSpawn = false
 wmScreenGui.IgnoreGuiInset = true
 wmScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
