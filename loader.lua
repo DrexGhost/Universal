@@ -1,4 +1,4 @@
-local base = "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/"
+local base = "https://raw.githubusercontent.com/DrexGhost/Universal/main/"
 
 local function fetch(name)
     local ok, code = pcall(function()
